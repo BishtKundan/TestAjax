@@ -57,30 +57,24 @@
     <div>
     <b>Start:</b>
     <select id="start">
-      <option value="Halifax, NS">Halifax, NS</option>
+      <option value="udhyog vihar, gurgaon">udhyog vihar, gurgaon</option>
+        <!--
       <option value="Boston, MA">Boston, MA</option>
       <option value="New York, NY">New York, NY</option>
       <option value="Miami, FL">Miami, FL</option>
+        -->
     </select>
     <br>
     <b>Waypoints:</b> <br>
     <i>(Ctrl+Click or Cmd+Click for multiple selection)</i> <br>
     <select multiple id="waypoints">
-      <option value="montreal, quebec">Montreal, QBC</option>
-      <option value="toronto, ont">Toronto, ONT</option>
-      <option value="chicago, il">Chicago</option>
-      <option value="winnipeg, mb">Winnipeg</option>
-      <option value="fargo, nd">Fargo</option>
-      <option value="calgary, ab">Calgary</option>
-      <option value="spokane, wa">Spokane</option>
+      <option value="AIIMS delhi">AIIMS delhi</option>
+      <option value="anand vihar, delhi">anand vihar, delhi</option>
     </select>
     <br>
     <b>End:</b>
     <select id="end">
-      <option value="Vancouver, BC">Vancouver, BC</option>
-      <option value="Seattle, WA">Seattle, WA</option>
-      <option value="San Francisco, CA">San Francisco, CA</option>
-      <option value="Los Angeles, CA">Los Angeles, CA</option>
+        <option value="334, gyan khand 1, indirapuram">334, gyan khand 1</option>
     </select>
     <br>
       <input type="submit" id="submit">
@@ -93,7 +87,7 @@
         var directionsDisplay = new google.maps.DirectionsRenderer;
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 6,
-          center: {lat: 41.85, lng: -87.65}
+            center: { lat: 28.558264, lng: 77.099336 }
         });
         directionsDisplay.setMap(map);
 
