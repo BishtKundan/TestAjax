@@ -60,6 +60,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DistanceCalculator.aspx" />
     <Content Include="jquery-bundle.js" />
     <Content Include="MasterPage.master" />
     <None Include="Web.Debug.config">
@@ -82,6 +83,7 @@
     <Content Include="saveLatLng.asp" />
     <Content Include="ShowUserLocation.aspx" />
     <Content Include="testajax.aspx" />
+    <Content Include="Waypoints.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +94,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DistanceCalculator.aspx.cs">
+      <DependentUpon>DistanceCalculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DistanceCalculator.aspx.designer.cs">
+      <DependentUpon>DistanceCalculator.aspx</DependentUpon>
     </Compile>
     <Compile Include="DrawLine.aspx.cs">
       <DependentUpon>DrawLine.aspx</DependentUpon>
@@ -143,6 +152,13 @@
     </Compile>
     <Compile Include="testajax.aspx.designer.cs">
       <DependentUpon>testajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Waypoints.aspx.cs">
+      <DependentUpon>Waypoints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Waypoints.aspx.designer.cs">
+      <DependentUpon>Waypoints.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

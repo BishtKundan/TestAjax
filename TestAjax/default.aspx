@@ -18,7 +18,9 @@
                 <li><a href="gps.aspx">Google APIs and GPS</a></li>
                 <li><a href="gpsDist.aspx">Distance Calculator API</a></li>
                 <li><a href="ShowUserLocation.aspx" target="_blank" >Show User Location</a></li>
-                <li><a href="DrawLine.aspx" target="_blank" >DrawLine [Waypoints]</a></li>
+                <li><a href="DrawLine.aspx" target="_blank" >Waypoints</a></li>
+                <li><a href="DistanceCalculator.aspx" target="_blank" >Distance Calculator</a></li>
+                
             </ul>
         </div>
     </form>
